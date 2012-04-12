@@ -22,7 +22,9 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "File::Spec" : 0,
+            "FindBin" : 0,
+            "Test::More" : 0
          }
       },
       "configure" : {
@@ -31,10 +33,7 @@
          }
       },
       "runtime" : {
-         "requires" : {
-            "Test::More" : 0,
-            "version" : 0
-         }
+         "requires" : {}
       }
    },
    "release_status" : "stable",
@@ -43,5 +42,5 @@
          "url" : "https://github.com/mstratman/DateTime-Format-Human-Duration"
       }
    },
-   "version" : "v0.0.3"
+   "version" : "0.4"
 }

@@ -3,7 +3,9 @@ abstract: 'Get a locale specific string describing the span of a given duration'
 author:
   - 'Daniel Muey <http://drmuey.com/cpan_contact.pl>'
 build_requires:
-  ExtUtils::MakeMaker: 0
+  File::Spec: 0
+  FindBin: 0
+  Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
@@ -17,9 +19,7 @@ no_index:
   directory:
     - t
     - inc
-requires:
-  Test::More: 0
-  version: 0
+requires: {}
 resources:
   repository: https://github.com/mstratman/DateTime-Format-Human-Duration
-version: v0.0.3
+version: 0.4

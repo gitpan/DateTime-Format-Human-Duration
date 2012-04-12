@@ -4,7 +4,7 @@ use warnings;
 use strict;
 require DateTime::Format::Human::Duration::Locale;
 
-use version; our $VERSION = qv('0.0.3');
+our $VERSION = '0.4';
 
 sub new {
     bless { 'locale_cache' => {} }, 'DateTime::Format::Human::Duration';  
@@ -124,10 +124,6 @@ __END__
 
 DateTime::Format::Human::Duration - Get a locale specific string describing the span of a given duration
 
-=head1 VERSION
-
-This document describes DateTime::Format::Human::Duration version 0.0.1
-
 =head1 SYNOPSIS
 
     use DateTime;
@@ -226,7 +222,8 @@ This facilitates, for example, this L<Locale::Maketext> vernacular which becomes
 
 Localization is provided by the included DateTime::Format::Human::Duration::Locale modules.
 
-Included are DateTime::Format::Human::Duration::Locale::es, DateTime::Format::Human::Duration::Locale::fr, DateTime::Format::Human::Duration::Locale::pt
+Included are DateTime::Format::Human::Duration::Locale::es, DateTime::Format::Human::Duration::Locale::fr, DateTime::Format::Human::Duration::Locale::pt,
+DateTime::Format::Human::Duration::Locale::de
 
 More will be included as time permits/folks volunteer/CLDR becomes an option
 
