@@ -4,7 +4,7 @@
       "Daniel Muey <http://drmuey.com/cpan_contact.pl>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112150",
+   "generated_by" : "ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "unknown"
    ],
@@ -22,14 +22,14 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "File::Spec" : 0,
-            "FindBin" : 0,
-            "Test::More" : 0
+            "File::Spec" : "0",
+            "FindBin" : "0",
+            "Test::More" : "0"
          }
       },
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : 0
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "runtime" : {
@@ -42,5 +42,5 @@
          "url" : "https://github.com/mstratman/DateTime-Format-Human-Duration"
       }
    },
-   "version" : "0.4"
+   "version" : "0.5"
 }

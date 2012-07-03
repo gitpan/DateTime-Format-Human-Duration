@@ -5,10 +5,10 @@ lib/DateTime/Format/Human/Duration/Locale.pm
 lib/DateTime/Format/Human/Duration/Locale/de.pm
 lib/DateTime/Format/Human/Duration/Locale/es.pm
 lib/DateTime/Format/Human/Duration/Locale/fr.pm
+lib/DateTime/Format/Human/Duration/Locale/it.pm
 lib/DateTime/Format/Human/Duration/Locale/pt.pm
 Makefile.PL
-MANIFEST
-META.yml			Module meta-data (added by MakeMaker)
+MANIFEST			This list of files
 README
 t/00.load.t
 t/01.methods.t
@@ -18,4 +18,5 @@ t/nb.pm
 t/perlcritic.t
 t/pod-coverage.t
 t/pod.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
 META.json                                Module JSON meta-data (added by MakeMaker)
